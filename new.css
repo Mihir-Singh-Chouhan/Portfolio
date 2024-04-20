@@ -1,0 +1,112 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+
+.nav{
+    cursor: pointer;
+    color:  rgb(76, 76, 223);
+    display: flex;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+  
+}
+.content{
+    font-size: 1.5pc;
+    display: flex;
+    margin-left: 20px;
+}
+#i{
+    margin-left: 10vw;
+}
+#home{
+    margin-left: 40vw;
+}
+
+.HomeI{
+    margin-top: 10vw;
+    display: flex;
+    width: 100vw;
+    height: auto;
+    justify-content: space-around;
+    
+}
+.iItem > img{
+
+    border-radius: 50%; 
+}
+#iAbout{
+    margin-left: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+.iData{
+    font-size: 60px;
+    width: 40vw;
+    height: auto;
+}
+.skillsCategori{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.skill{
+  
+    width: 40vw;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#basic{
+    padding: 10px 30px;
+    text-align: center;
+}
+.basicSkills{
+    background-color: rgb(76, 76, 223);
+    color: rgb(251, 251, 251);
+    padding: 10px 30px;
+    margin: 5px;
+
+    border: 5px solid rgb(76, 76, 223);
+    border-radius: 15px;
+   
+}
+#development{
+    padding: 10px 30px;
+    text-align: center;
+}
+.developmentSkills{
+    background-color: rgb(76, 76, 223);
+    color: rgb(251, 251, 251);
+    padding: 10px 30px;
+    margin: 5px;
+
+    border: 5px solid rgb(76, 76, 223);
+    border-radius: 15px;
+}
+
+
+.project{
+    margin-top: 100px;
+}
+.AppCon{
+    font-display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5vw 7vw;
+}
+.app{
+    margin-top: 3vw;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: auto;
+    height: auto;
+    padding: 1vw 10vw;
+}
+.appData{
+    font-size: 20px;
+}
